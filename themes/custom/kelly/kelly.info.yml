@@ -1,0 +1,14 @@
+name: Custom Theme
+type: theme
+base theme: claro
+description: Custom Theme for My kelly  Website.
+package: Other
+core_version_requirement: ^8 || ^9
+core: 8.x
+libraries:
+  - kelly/global-styling
+regions:
+  header: "Header"
+  banner: "Banner"
+  content: Content
+  footer: "Footer"
